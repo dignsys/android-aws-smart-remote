@@ -1,2 +1,2 @@
 # tizen-aws-smart-remote
-Tizen IoT Application, Smart remote controller
+Android AWS IoT Application, Smart remote controller
