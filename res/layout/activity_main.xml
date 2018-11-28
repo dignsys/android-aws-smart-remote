@@ -250,6 +250,7 @@
             android:id="@+id/btnTVPowerOn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="0.5"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             android:background="@drawable/power_hover" />
@@ -257,6 +258,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1.0"
             android:layout_marginTop="20dp"
             android:layout_marginStart="40dp"
             android:layout_marginEnd="40dp"
@@ -334,10 +336,13 @@
         <Button
             android:id="@+id/btnMenuSettingTV"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="20dp"
+            android:layout_weight="1.0"
             android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center"
             android:background="@drawable/shape_gray_default"
+            android:layout_alignParentBottom="true"
             android:gravity="center"
             android:textColor="@color/colorOff"
             android:textStyle="bold"
@@ -357,15 +362,16 @@
         android:orientation="vertical"
         android:visibility="gone" >
 
-        <View
+        <!-- View
             android:layout_width="0dp"
-            android:layout_height="30dp" />
+            android:layout_height="30dp" /-->
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_weight="1.0"
             android:background="@drawable/shape_large_gray_bg"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="50dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:orientation="vertical" >
@@ -419,7 +425,7 @@
                     android:id="@+id/btnVCStart"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1.2"
+                    android:layout_weight="1.0"
                     android:layout_margin="5dp"
                     android:background="@drawable/key_play_hover" />
                 <Button
@@ -468,17 +474,20 @@
             android:layout_height="0dp"
             android:layout_weight="0.20" /-->
 
-        <View
+        <!--View
             android:layout_width="0dp"
-            android:layout_height="10dp" />
+            android:layout_height="10dp" /-->
 
         <Button
             android:id="@+id/btnMenuSettingVC"
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginTop="10dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.6"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
             android:layout_gravity="center"
             android:background="@drawable/shape_gray_default"
+            android:layout_alignParentBottom="true"
             android:gravity="center"
             android:textColor="@color/colorOff"
             android:textStyle="bold"
